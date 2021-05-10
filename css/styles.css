@@ -5,135 +5,92 @@
 	text-decoration: none;
 }
 
+.top-color {
+	background-color: rgb(226, 226, 226);
+	padding-top: 10px;
+}
 
+.header-title {
+	display: flex;
+	flex-direction: column-reverse;
+	color: rgb(0, 0, 0);
+	padding-bottom: 50px;
+}
 
+.student-picture {
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+}
 
+.block-2 {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
 
-@media (min-width: 320px) {
+img {
+	width: 99%;
+}
 
+.main-nav p {
+	background-color: rgb(223, 223, 235);
+	padding: 4%;
+}
 
+.contact-a {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: solid rgb(197, 201, 238);
+	background-color: rgb(221, 221, 224);
+	color: hotpink;
+	margin: 0 auto;
+}
 
-	.top-color {
-	
-		background-color: rgb(226, 226, 226);
-		padding-top: 10px;
+footer {
+	background-color: rgb(253, 253, 253);
+	display: flex;
+	flex-direction: row;
+	width: 97%;
+}
+
+.back-to-top {
+	display: flex;
+	flex-direction: row;
+	padding-left: 0px;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+
+.student-name {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	padding-left: 1px;
+	justify-content: space-between;
+	padding-right: 1px;
+}
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;		
+}
+
+@media (max-width: 320px) {
+	.hide-back-to-top {
+		display: none;
 	}
-	
-		.header-title {
-			display: flex;
-			flex-direction: column-reverse;
-			color: rgb(0, 0, 0);
-			
-			padding-bottom: 50px;
-		}
-		.student-picture {
-			width: 65%;
-			margin: 0 auto;
-			display: block;
-		}
-	
-		.block-2 {
-			padding-bottom: 30px;
-			padding-top: 30px;
-		}
-		.marketing {
-			display: block;
-			margin: 0 auto;
-		}
-		img {
-			width: 99%;
-		}
-		.main-nav p {
-			background-color: rgb(223, 223, 235);
-			padding: 4%;
-			
-			
-		}
-		.contact-a {
-	
-			padding-top: 50px;
-			padding-bottom: 50px;
-			border-bottom: solid rgb(197, 201, 238);
-			background-color: rgb(221, 221, 224);
-			color: hotpink;
-			margin: 0 auto;
-		}
-	
-		.marketing-calc {
-	
-			padding-bottom: 50px;
-			
-		}
-	
-		.marketing {
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
-	
-		.marketing-travel {
-	
-			padding-bottom: 30px;
-			
-		}
-	
-	
-	footer {
-			background-color: rgb(253, 253, 253);
-			display: flex;
-			flex-direction: row;
-			width: 97%;
-			
-			
-			
-		
-		}
-		.back-to-top {
-			display: flex;
-			flex-direction: row;
-			padding-left: 0px;
-			padding-right: 30px;
-			padding-top: 15px;
-		}
-	
-		.student-name {
-			background-color: rgb(255, 255, 255);
-			display: flex;
-			flex-direction: row;
-			width: 90%;
-			padding-left: 1px;
-			justify-content: space-between;
-			padding-right: 1px;
-			
-		}
-	
-		
-	}
-	
-	
-	
-	
-	@media (max-width: 320px) {
-		.hide-back-to-top {
-			display: none;
-		}
-	
+}
+
+/* iPad to desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.portfolio-item {
+		flex: 0 48%;		
+		margin-bottom: 5%;
 	}
 
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 768px) and (max-width: 768px) {
-
-	
 	.main-nav {
-
 		display: flex;
 		padding-right: 250px;
 		padding-bottom: 50px;
@@ -141,59 +98,23 @@
 		margin: auto;
 		justify-content: space-between;
 	}
-	
-	
-	.angry {
+
+	.header-content {
 		display: flex;
 		flex-direction: row-reverse;
-		
 		padding-bottom: 40px;
-		}
-
-		.angry p {
-
-			width: 45%;
-			margin-top: 5px;
-			margin-left: 42px;
-		}
-
-		.angry img {
-			width: 45%;
-		}
-
-	
-	
-	
-	
-	
-
-	
-	
-	.medium-blocks {
-		display: flex;
-
-		width: 98%;
-	}
-	
-
-	.marketing-search-a, .marketing-search-b, .marketing-search-c {
-		padding-left: 1px;
-		padding-top: 20px;
-		padding-right: 10px;
 	}
 
-	
-	.marketing-a,
-	.marketing-b,
-	.marketing-c {
-		padding-left: 30px;
-		padding-top: 20px;
-		padding-right: 10px;
+	.header-content p {
+		width: 45%;
+		margin-top: 5px;
+		margin-left: 42px;
 	}
-	
-	
-	
-	
+
+	.header-content img {
+		width: 45%;
+	}
+
 	footer {
 		background-color: rgb(253, 253, 253);
 		display: flex;
@@ -201,10 +122,8 @@
 		width: 97%;
 		padding-left: 30px;
 		padding-bottom: 50px;
-		
-		
-	
 	}
+
 	.hide-back-to-top {
 		display: flex;
 		flex-direction: row;
@@ -219,54 +138,29 @@
 		width: 95%;
 		padding-left: 30px;
 		justify-content: space-between;
-		
 	}
-	
-	
-	
+
 	.back-to-top {
 		display: none;
 	}
-	
-			
-	
 }
 
-
-
-
-@media (max-width: 768px) {
-	.large-screen-block-b {
-		display: none;
+/* Desktop and higher */
+@media (min-width: 1024px) {
+	.portfolio-item {
+		flex: 0 32%;		
+		margin-bottom: 2%;
 	}
 
-}
-
-
-
-
-
-
-@media (min-width: 1024px) {
-	
-	
-	
-	
 	.main-nav {
-
-	
 		display: flex;
 		flex-direction: row-reverse;
 		width: 97%;
 		padding-left: 30px;
-		
-		
 	}
 
 	.main-header,
 	.student-a {
-
-		
 		display: flex;
 		flex-direction: row;
 		width: 95%;
@@ -274,62 +168,56 @@
 		padding-top: 4px;
 		justify-content: space-between;
 	}
-	
-	
-	.angry {
+
+	.header-content {
 		display: flex;
 		flex-direction: row-reverse;
-		
 		padding-bottom: 40px;
-		}
+	}
 
-	.angry p {
+	.header-content p {
+		width: 45%;
+		margin-top: 5px;
+		margin-left: 42px;
+	}
 
-			width: 45%;
-			margin-top: 5px;
-			margin-left: 42px;
-		}
-
-	.angry img {
-			width: 45%;
-		}
+	.header-content img {
+		width: 45%;
+	}
 
 	.back-to-top {
 		display: none;
 	}
 
-	
-	
-	
-	
-			
-	
-	
-			
-			
-			.marketing-a {
-				padding-top: 0px;
-				padding-bottom: 3px;
-				width: 30%;
-			}
-			
-			
-			.marketing-search-a {
-				padding-left: 400px;
-				padding-top: 0px;
-				padding-bottom: 300px;
-			}
-		
-			
-			.marketing-search-c,
-			.marketing-search-b,
-			.marketing-c {
-				padding-left: 30px;
-				padding-top: 20px;
-				padding-right: 10px;
-			}
-	
-	
+	.contact-a {
+		padding-top: 30px;
+	}
+
+	footer {
+		background-color: rgb(253, 253, 253);
+		display: flex;
+		flex-direction: row;
+		width: 97%;
+		padding-left: 30px;
+	}
+
+	.hide-back-to-top {
+		display: flex;
+		flex-direction: row;
+		padding-left: 20px;
+		padding-right: 50px;
+	}
+
+	.student-name {
+		background-color: rgb(255, 255, 255);
+		display: flex;
+		flex-direction: row;
+		width: 95%;
+		padding-left: 30px;
+		justify-content: space-between;
+	}
+}
+
 	/*
 	
 	.block-2 {
@@ -376,52 +264,3 @@ padding-top: 30px;
 
 	
 	*/
-	
-	
-	
-	
-	
-	
-	
-	
-	.contact-a {
-
-		padding-top: 30px;
-	}
-
-	footer {
-		background-color: rgb(253, 253, 253);
-		display: flex;
-		flex-direction: row;
-		width: 97%;
-		padding-left: 30px;
-		
-		
-	
-	}
-	.hide-back-to-top {
-		display: flex;
-		flex-direction: row;
-		padding-left: 20px;
-		padding-right: 50px;
-	}
-
-	.student-name {
-		background-color: rgb(255, 255, 255);
-		display: flex;
-		flex-direction: row;
-		width: 95%;
-		padding-left: 30px;
-		justify-content: space-between;
-		
-	}
-
-	
-
-}
-
-
-
-
-
-
