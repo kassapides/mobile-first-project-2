@@ -84,9 +84,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-	.hide-back-to-top {
-		display: auto;
-	}
+	
 
 	.portfolio-item {
 		flex: 0 48%;		
